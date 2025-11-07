@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+	<!-- 完成 -->
+	<VerticalLayout>
+		<VerticalLayout float="true" width="660" height="408" bkimage="file='pic\bg.png'" />
+		<VerticalLayout>
+			<Control height="268" />
+			<Label padding="80,30,0,0" font="6" width="160" textcolor="#FFFFFFFF" text="ic语音已卸载" />
+			<Button name="btnUninstalled" font="6" padding="500,20,0,0" text="完 成"
+				textcolor="#FF000000" bkcolor="#FF00FFC9"
+				width="80" height="30" borderround="15,15" />
+		</VerticalLayout>
+	</VerticalLayout>
+</Windows>

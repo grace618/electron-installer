@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+	<!-- 进度 -->
+	<VerticalLayout>
+		<VerticalLayout float="true" width="660" height="408" bkimage="file='pic\bg.png'" />
+		<VerticalLayout>
+			<Control height="318" />
+			<HorizontalLayout height="20" padding="280,5,280,0">
+				<Label font="6" name="progress_tip" width="56" text="正在安装" textcolor="#FF00FFC9" />
+				<Control width="4" />
+				<Label font="6" name="progress_pos" width="40" height="20"  textalign="right" textcolor="#FF00FFC9" />
+			</HorizontalLayout>
+			<Control height="15" />
+			<Slider name="slrProgress" padding="40,0,40,0" height="6" mouse="false"
+				foreimage="form\fg.png" thumbsize="0,0" bkcolor="#1AFFFFFF" />
+
+		</VerticalLayout>
+	</VerticalLayout>
+</Windows>

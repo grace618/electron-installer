@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+	<!-- 完成 -->
+	<VerticalLayout>
+		<VerticalLayout float="true" width="660" height="408" bkimage="file='pic\upgrade-info.png'" />
+		<Control height="338" />
+		<VerticalLayout padding="245,0,245,0" height="40">
+			<Button name="btnRun" height="40" width="170" normalimage="file='pic\open-exe.png'" 
+			hotimage="file='pic\open-exe_hover.png'" pushedimage="file='pic\open-exe_hover.png'"
+			/>
+		</VerticalLayout>
+	</VerticalLayout>
+</Windows>

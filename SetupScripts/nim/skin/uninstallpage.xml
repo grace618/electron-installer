@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+	<VerticalLayout>
+		<VerticalLayout float="true" width="660" height="408" bkimage="file='pic\bg.png'" />
+
+		<VerticalLayout>
+			<Control height="268" />
+			<Label font="8" width="200" height="25" padding="30,0,0,0" textcolor="#FFFFFFFF"
+				text="确定要卸载ic语音吗？" />
+			<HorizontalLayout padding="30,45,0,0" height="30">
+				<CheckBox name="chkbox_userdata" width="130" heigh="20" padding="0,6,0,0" font="7"
+					text="保留我的数据" textcolor="#FFFFFFFF" selected="true" valign="center" align="left"
+					textpadding="20,-3,0,0" normalimage="file='public/CheckBox/check_no.png' dest='0,2,16,18'"
+					normalhotimage="file='public/CheckBox/check_no.png' dest='0,2,16,18'"
+					selectedimage="file='public/CheckBox/check_yes.png' dest='0,2,16,18'"
+					selectedhotimage="file='public/CheckBox/check_yes.png' dest='0,2,16,18'" />
+				<Control />
+				<Button name="btnClose" font="6" text="取 消" textcolor="#FF000000" bkcolor="#FFFFFFFF"
+					width="80"
+					height="30" 
+					borderround="15,15"
+					/>
+				<Control width="10" />
+				<Button name="btnUnInstall" font="6" text="确 定"
+					textcolor="#FF000000" bkcolor="#FF00FFC9"
+					width="80"
+					height="30" 
+					borderround="15,15"
+					/>
+				<Control width="20" />
+			</HorizontalLayout>
+			<Control height="10" />
+		</VerticalLayout>
+	</VerticalLayout>
+</Windows>

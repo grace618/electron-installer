@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+	<!-- 进度 -->
+	<VerticalLayout>
+
+		<VerticalLayout float="true" width="660" height="408" bkimage="file='pic\bg.png'" />
+		<VerticalLayout>
+
+			<Control height="318" />
+			<HorizontalLayout height="20" padding="280,5,280,0">
+				<Label font="6" name="un_progress_tip" width="56" textcolor="#FF00FFC9" text="正在卸载" />
+				<Control width="4" />
+				<Label font="6" name="un_progress_pos" width="40" textalign="right" textcolor="#FF00FFC9" />
+			</HorizontalLayout>
+			<Control height="15" />
+			<Slider name="slrUnInstProgress" padding="40,0,40,0" height="6" mouse="false"
+				foreimage="form\fg.png" bkimage="form\bg.png" thumbsize="0,0" bkcolor="#FFD8D8D8" />
+
+		</VerticalLayout>
+	</VerticalLayout>
+</Windows>
